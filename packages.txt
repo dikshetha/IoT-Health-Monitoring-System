@@ -1,0 +1,13 @@
+sudo apt update && sudo apt upgrade -y
+sudo apt install apache2 -y
+cd /var/www/html
+/var/www/html $ ls -al
+/var/www/html $ hostname -I
+sudo apt install php -y
+sudo rm index.html
+sudo service apache2 restart
+
+ls -lh /var/www/
+sudo chown -R pi:www-data /var/www/html/
+sudo chmod -R 770 /var/www/html/
+ls -lh /var/www/
